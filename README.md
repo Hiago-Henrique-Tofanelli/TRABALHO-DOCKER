@@ -5,9 +5,13 @@
     git clone https://github.com/Hiago-Henrique-Tofanelli/TRABALHO-DOCKER.git
 ```
   
-* ## Passo 2: Rodar o container com o comando a seguir:
+* ## Passo 2: Rodar o container com os comandos a seguir:
   
 ```
+    docker build -t hiagoht/trab-docker:1.0 .
+```
+
+``` 
     docker container run --name trabalho-teste -p 80:80 -d hiagoht/trab-docker:1.0
 ```
 * ## Passo 3 : Acessar o localhost.
